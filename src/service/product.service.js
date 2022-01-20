@@ -1,6 +1,10 @@
 import axios from 'axios'
 
-let API_URL = 'http://localhost:8080/api/product'
+
+// 本地開發
+// let API_URL = 'http://localhost:8080/api/product'
+// 上線地址
+let API_URL = 'https://shopping-system-server.herokuapp.com/api/product'
 
 class ProductService {
     get() {

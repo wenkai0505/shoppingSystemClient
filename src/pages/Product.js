@@ -9,7 +9,11 @@ import StorageUtils from '../utils/storage.utils'
 
 const Product = () => {
 
-    let APIURL = 'http://localhost:8080/'
+    // 本地開發
+    // let APIURL = 'http://localhost:8080/'
+    // 上線地址
+    let APIURL = 'https://shopping-system-server.herokuapp.com/'
+
 
     let [productOne, setProductOne] = useState('')
 
