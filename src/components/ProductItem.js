@@ -49,7 +49,7 @@ const ProductItem = ({ item, setProductList, APIURL, setProductOne }) => {
             </div>
             <div className="title td3 tdType">{title}</div>
             <div className="introduc td4 tdType">{productText}</div>
-            <div className="price td5 tdType">{price}</div>
+            <div className="price td5 tdType">{"NT$ " + price}</div>
             <div className="control td6 tdType">
                 <div onClick={() => { handleEdit(_id) }} className="btn edit">編輯</div>
                 <div className="btn delete" onClick={() => (handleDelete(_id))}>刪除</div>

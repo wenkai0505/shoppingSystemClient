@@ -16,9 +16,11 @@ class ProductService {
     post() {
         return axios.post(API_URL)
     }
-    patch(_id) {
+    patch(_id, { title, price, productText }) {
         return axios.patch(API_URL + '/' + _id, {
+            title, price, productText
         })
+
     }
     delete(_id) {
         return axios.delete(API_URL + '/' + _id)

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import StorageUtils from '../utils/storage.utils'
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom'
 
 const Header = () => {
 
